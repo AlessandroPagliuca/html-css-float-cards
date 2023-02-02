@@ -1,0 +1,54 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+
+}
+:root{
+    --title: #e52f6f;
+    --text: #5e5b5d;
+    --box-card: #0f0e17;
+    --name-crewmate: #fffffa;
+    --bgwhite: #fffffe;
+}
+h1{
+    font-size: 3rem;
+    color: var(--title);
+    padding-bottom: 4rem;
+}
+p{
+    font-size: 1.2rem;
+    color: var(--text);
+}
+/* /General */
+
+/* Utility */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Utility */
+
+/*Selector div container*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--bgwhite);
+}
+/* /Selector div container */
+
+/* header */
+.header-box{
+    text-align: center;
+    padding-top: 4rem;
+}
+
+/* /header */
+
+
+
