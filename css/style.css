@@ -41,7 +41,7 @@ p{
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     background-color: var(--bgwhite);
 }
 /* /Selector div container */
@@ -57,13 +57,13 @@ p{
 .col{
     width: calc(100% / 3);
     float: left;
+
 }
 .box-card{
-    margin-top: 5rem;
+    margin-top: 3rem;
     height: 8rem;
-    border: 1px solid black;
-    float: left;
     background-color: var(--box-card);
+    
 }
 .photo-card{
     height: 100%;
@@ -87,7 +87,11 @@ p{
 .email{
     text-decoration:none;
     color: var(--email);
+    cursor: pointer;
 }
-
+.padd{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 /* cards-box */
 
